@@ -74,9 +74,8 @@ class Wrapper extends StatelessWidget {
   Wrapper({Key key, this.child}) : super(key: key);
 
   final layoutService = locator<LayoutService>();
+  final radius = 15.0;
 
-  var radius = 0.0;
-  var selectedPodcast;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,7 +90,7 @@ class Wrapper extends StatelessWidget {
         backdropOpacity: 1.0,
         maxHeight: MediaQuery.of(context).size.height * 0.8,
         borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(15), topRight: Radius.circular(15)),
+            topLeft: Radius.circular(radius), topRight: Radius.circular(radius)),
         panel: FullPanel(),
         isDraggable: true,
         collapsed: BottomPanel(),
