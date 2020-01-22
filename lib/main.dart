@@ -95,11 +95,7 @@ class Wrapper extends StatelessWidget {
         panel: FullPanel(),
         isDraggable: true,
         collapsed: BottomPanel(),
-        body: MaterialApp(
-          debugShowCheckedModeBanner: false,
-          home: child,
-          theme: Theme.of(context),
-        ),
+        body: this.child
       ),
     );
   }
