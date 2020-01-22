@@ -1,0 +1,44 @@
+name: podcast_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  sliding_up_panel: ^0.3.6
+  get_it: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/TheNewYorkerFiction.png
+    - assets/images/TheBookReview.png
+    - assets/images/WireframeBig.png
+    - assets/images/Wireframe.png
+  fonts:
+   - family: CustomIcons
+     fonts:
+      - asset: assets/fonts/CustomIcons.ttf 
+   - family: SFProText
+     fonts:
+      - asset: assets/fonts/SFProText-Light.ttf
+        weight: 100
+      - asset: assets/fonts/SFProText-Regular.ttf
+        weight: 200
+      - asset: assets/fonts/SFProText-Medium.ttf
+        weight: 300
+      - asset: assets/fonts/SFProText-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/SFProText-SemiBold.ttf
+        weight: 500
