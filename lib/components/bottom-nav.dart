@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:podcast_app/services/layout.dart';
-import 'package:podcast_app/services/locator.dart';
+import '../services/layout.dart';
+import '../services/locator.dart';
 
 import '../custom_icons_icons.dart';
 

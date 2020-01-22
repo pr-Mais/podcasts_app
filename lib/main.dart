@@ -1,16 +1,14 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:podcast_app/components/panel.dart';
+import 'components/panel.dart';
 
-import 'package:podcast_app/root.dart';
-import 'package:podcast_app/services/layout.dart';
+import 'root.dart';
+import 'services/layout.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 import 'components/bottom-nav.dart';
 import 'components/bottom-panel.dart';
-import 'custom_icons_icons.dart';
-import 'data.dart';
 import 'services/locator.dart';
 
 void main() {
