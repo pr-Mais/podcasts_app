@@ -13,8 +13,11 @@ class _BottomNavState extends State<BottomNav> {
   final layoutService = locator<LayoutService>();
   var currentIndex = 0;
   updatePage(index) {
-    layoutService.globalPageController.animateToPage(index,
-        duration: Duration(milliseconds: 200), curve: Curves.easeIn);
+    layoutService.globalPageController.animateToPage(
+      index,
+      duration: Duration(milliseconds: 200),
+      curve: Curves.easeIn,
+    );
     setState(() {
       currentIndex = index;
     });
