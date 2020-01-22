@@ -75,7 +75,6 @@ class Wrapper extends StatelessWidget {
 
   final layoutService = locator<LayoutService>();
   final radius = 15.0;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
